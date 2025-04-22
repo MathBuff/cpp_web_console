@@ -1,0 +1,27 @@
+{
+  "name": "cpp_web_console",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MathBuff/cpp_web_console.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/MathBuff/cpp_web_console/issues"
+  },
+  "homepage": "https://github.com/MathBuff/cpp_web_console#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nan": "^2.22.2"
+  }
+}
